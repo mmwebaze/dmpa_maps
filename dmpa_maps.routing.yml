@@ -1,0 +1,7 @@
+dmpa_maps.display_maps:
+  path: 'country/maps/{country}/{year}'
+  defaults:
+    _controller: '\Drupal\dmpa_maps\Controller\DmpaMapsController::displayMaps'
+    _title: ''
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,30 @@
+highmaps:
+  remote: https://www.highcharts.com/
+  version: 6.1.1
+  license:
+    name: Non-commercial
+    url: https://creativecommons.org/licenses/by-nc/3.0/
+    gpl-compatible: false
+  js:
+    https://code.highcharts.com/maps/highmaps.js: {type: external}
+    https://code.highcharts.com/maps/modules/data.js: {type: external}
+    #https://code.highcharts.com/mapdata/custom/world.js: {type: external}
+    https://code.highcharts.com/maps/modules/exporting.js: {type: external}
+    #https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js: {type: external}
+    #http://code.highcharts.com/highcharts.js: {type: external}
+    #https://code.highcharts.com/maps/modules/map.js: {type: external}
+    #https://code.highcharts.com/maps/modules/offline-exporting.js: {type: external}
+    https://code.highcharts.com/mapdata/countries/ug/ug-all.js: {type: external}
+
+dmpa_maps_highmaps:
+  js:
+    js/dmpa_maps.js: {}
+  css:
+    theme:
+      css/dmpa_maps.css: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+    - dmpa_maps/highmaps

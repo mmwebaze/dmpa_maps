@@ -1,0 +1,5 @@
+name: Dmpa Maps
+type: module
+description: Displays maps
+core: 8.x
+package: dmpa
