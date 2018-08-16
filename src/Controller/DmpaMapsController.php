@@ -11,8 +11,6 @@ class DmpaMapsController extends ControllerBase{
         $country = strtolower($request->attributes->get('country'));
         $year = $request->attributes->get('year');
 
-        //print_r($country);die('hshs');
-
         $maps = array(
           'kenya' => ['link' => 'https://code.highcharts.com/mapdata/countries/ke/ke-all.geo.json'],
           'uganda' => ['link' => 'https://code.highcharts.com/mapdata/countries/ug/ug-all.geo.json'],
