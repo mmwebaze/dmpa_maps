@@ -14,7 +14,6 @@ highmaps:
     #http://code.highcharts.com/highcharts.js: {type: external}
     #https://code.highcharts.com/maps/modules/map.js: {type: external}
     #https://code.highcharts.com/maps/modules/offline-exporting.js: {type: external}
-    https://code.highcharts.com/mapdata/countries/ug/ug-all.js: {type: external}
 
 dmpa_maps_highmaps:
   js:
