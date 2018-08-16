@@ -1,0 +1,4 @@
+services:
+  dmpa_maps.manager:
+    class: Drupal\dmpa_maps\Services\DmpaMapsManager
+    arguments: ['@entity_type.manager']
